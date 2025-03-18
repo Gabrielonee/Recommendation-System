@@ -2,9 +2,24 @@
 
 This repository demonstrates how to build a recommendation system using Python, based on Amazon user reviews of products categorized by type. The approaches utilized in this project include:
 
-- **Collaborative Filtering**: A method that makes recommendations based on the preferences of similar users.
-- **Content-Based Filtering**: A technique that recommends products similar to those a user has shown interest in, based on product features.
-- **Sentiment Analysis**: An approach that analyzes user reviews to understand the sentiment behind them, which can help improve recommendations.
+## **Collaborative Filtering**
+Collaborative filtering is a recommendation technique that predicts user preferences based on the behavior and preferences of similar users. 
+There are two main types:
+1. **User-based Collaborative Filtering**: Identifies users with similar preferences and suggests items liked by similar users.
+2. **Item-based Collaborative Filtering**: Analyzes similarities between items based on user interactions and suggests items that are often rated similarly.
+
+## **Content-Based Filtering**: 
+Content-based filtering makes recommendations by analyzing item features and user preferences. It uses:
+1. **Text embeddings** (such as TF-IDF, BoW, or deep learning models) to understand item descriptions.
+2. **User profiles** created from past interactions to recommend similar items.
+
+## **Sentiment Analysis**
+Sentiment analysis involves using NLP techniques to determine the emotional tone of text data. It can help in:
+1. Understanding user preferences by analyzing product reviews.
+2. Improving recommendations by incorporating sentiment scores into the recommendation model.
+3. Classifying content into positive, neutral, or negative sentiment categories.
+
+# Project Structure
 
 ## Getting Started
 
